@@ -1,0 +1,222 @@
+<MENU>
+    <ALLA_CARTA>
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Pasta al pesto</NOME>
+            <PREZZO>10.5</PREZZO>
+            <INGREDIENTI>Basilico, pinoli, aglio, pecorino, olio, penne</INGREDIENTI>
+            <IMMAGINE>https://www.ricettealvolo.it/wp-content/uploads/2016/10/spaghetti-al-pesto.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Salmone in umido</NOME>
+            <PREZZO>13</PREZZO>
+            <INGREDIENTI>Salmone fresco, saglio, cipolla, sedano, prezzemolo, alloro, capperi dissalati, pomodorini,vino bianco, peperoncino.</INGREDIENTI>
+            <IMMAGINE>https://images.fidhouse.com/fidelitynews/wp-content/uploads/sites/6/2016/12/1482511847_4ab0d4f481a73287d57f4d26495a55b18dbb9112-446246096.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Fusilli al salmone</NOME>
+            <PREZZO>14.5</PREZZO>
+            <INGREDIENTI>Fusilli, salmone affumicato, aglio, vino bianco, panna, besciamella, prezzemolo, parmigiano grattugiato, noce di burro</INGREDIENTI>
+            <IMMAGINE>https://pasta.schedro.ua/wp-content/uploads/2018/11/03-Pop-Fusilli-al-salmone.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Dolce</TIPO>
+            <NOME>Crema Catalana</NOME>
+            <PREZZO>19</PREZZO>
+            <INGREDIENTI>Latte, tuorli, zucchero, limoni, cannella, amido di mais, zucchero di canna</INGREDIENTI>
+            <IMMAGINE>https://wips.plug.it/cips/buonissimo.org/cms/2011/08/crema-catalana-9.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Pesce spada con verdure</NOME>
+            <PREZZO>15</PREZZO>
+            <INGREDIENTI>Fetta di pesce spada, lattuga, pomodorini, capperi sotto sale, olio evo</INGREDIENTI>
+            <IMMAGINE>https://lericettedinai.it/wp-content/uploads/2020/09/Nai-spada-con-verdure.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Involtini di vitello alla salvia</NOME>
+            <PREZZO>13</PREZZO>
+            <INGREDIENTI>Fettine di vitello, prosciutto cotto, salvia, aglio, vino bianco, succo di mezzo limone,noce di burro, olio extravergine d’oliva</INGREDIENTI>
+            <IMMAGINE>https://staticcookist.akamaized.net/wp-content/uploads/sites/21/2022/03/Involtini-di-vitello-con-prosciutto-formaggio-salvia.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Bucatini alla amatriciana</NOME>
+            <PREZZO>14</PREZZO>
+            <INGREDIENTI>Bucatini, pomodori pelati, guanciale stagionato, pecorino, peperoncino</INGREDIENTI>
+            <IMMAGINE>https://media-assets.lacucinaitaliana.it/photos/620fbec8e7e7382463999060/3:4/w_750,h_1000,c_limit/bucatini-allamatriciana2.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Gnocchi di patate</NOME>
+            <PREZZO>19</PREZZO>
+            <INGREDIENTI>Patate rosse, farina, uova, sale, semola di grano duro </INGREDIENTI>
+            <IMMAGINE>https://wips.plug.it/cips/buonissimo.org/cms/2013/04/gnocchi-di-patate-al-montasio-su-foglia-di-frico.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Lasagne al ragu</NOME>
+            <PREZZO>15</PREZZO>
+            <INGREDIENTI>Carne macinata di manzo, carne macinata di maiale, polpa di pomodoro, carota, sedano, cipolla, foglie di alloro, besciamella, pasta con uovo, parmigiano reggiano</INGREDIENTI>
+            <IMMAGINE>https://cdn.ilclubdellericette.it/wp-content/uploads/2019/10/lasagne-al-ragu-di-soia-1280x720.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Parmigiana di melanzane</NOME>
+            <PREZZO>15</PREZZO>
+            <INGREDIENTI>Melanzane ovali nere, passata di pomodoro, fiordilatte, parmigiano Reggiano, cipolle dorate, basilico, olio extravergine </INGREDIENTI>
+            <IMMAGINE>https://www.salepepe.it/files/2015/07/AA490572_-1140x636.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Lombo di agnello con carote ed asparagi</NOME>
+            <PREZZO>20</PREZZO>
+            <INGREDIENTI>Lombo di agnello irlandese, burro, pepe, cardamomo, coste di sedano, cipolla, salvia e rosmarino e vino bianco secco, carote, asparagi, miele di castagno, zenzero, succo di limone, menta, aglio</INGREDIENTI>
+            <IMMAGINE>https://www.ristorazioneitalianamagazine.it/CMS/wp-content/uploads/2021/06/Dettaglio-Lombo-dagnello-irlandese-con-carote-ed-asparagi.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Dolce</TIPO>
+            <NOME>Tiramisu</NOME>
+            <PREZZO>20</PREZZO>
+            <INGREDIENTI>Mascarpone,uova, savoiardi, zucchero, caffè</INGREDIENTI>
+            <IMMAGINE>https://media-assets.lacucinaitaliana.it/photos/62188f8ac735e2b54a74cf04/1:1/w_410,h_410,c_limit/Tiramis%C3%B9-450x410.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Dolce</TIPO>
+            <NOME>Tortino di cioccolato con cuore fondente</NOME>
+            <PREZZO>10</PREZZO>
+            <INGREDIENTI>Cioccolato fondente, burro, zucchero, uova, farina, burro, zucchero a velo</INGREDIENTI>
+            <IMMAGINE>https://www.giallozafferano.it/images/173-17316/Tortino-di-cioccolato-con-cuore-fondente_650x433_wm.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Dolce</TIPO>
+            <NOME>Sachertorte</NOME>
+            <PREZZO>12</PREZZO>
+            <INGREDIENTI>Cioccolata fondente, albumi, farina, zucchero, tuorli, burro, zucchero a velo, vaniglia</INGREDIENTI>
+            <IMMAGINE>https://www.vivodibenessere.it/wp-content/uploads/2013/12/sacher-torte.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Dolce</TIPO>
+            <NOME>Panna cotta al lampone</NOME>
+            <PREZZO>17</PREZZO>
+            <INGREDIENTI>Panna fresca liquida, zucchero, vaniglia gelatina in fogli, lamponi</INGREDIENTI>
+            <IMMAGINE>https://www.giornalelavoce.it/resizer/480/-1/true/2014/05/panna-cotta-2.jpg--.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Dolce</TIPO>
+            <NOME>Cheescacke al limone</NOME>
+            <PREZZO>11</PREZZO>
+            <INGREDIENTI>Burro, ricotta, succo di limone, zucchero a velo, gelatina di fogli, formaggio fresco spalmabile</INGREDIENTI>
+            <IMMAGINE>https://images.fidhouse.com/fidelitynews/wp-content/uploads/sites/6/2015/03/Cheesecake-al-limone-97209-3.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Fegato con Cipolle</NOME>
+            <PREZZO>15</PREZZO>
+            <INGREDIENTI>Fegato di vitello, cipolle, olio extravergine, sale e pepe, zucchero semolato, aceto di vino rosso.</INGREDIENTI>
+            <IMMAGINE>https://wips.plug.it/cips/buonissimo.org/cms/2017/09/fegato-cipolle.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Involtini di platessa</NOME>
+            <PREZZO>12</PREZZO>
+            <INGREDIENTI>Filetti di platessa, prugne, formaggio emmenthal, succo limone, olio extravergine, sale e pepe, fagiolini, pomodorini, limone, zucchine</INGREDIENTI>
+            <IMMAGINE>https://www.misya.info/wp-content/uploads/2017/01/Involtini-di-platessa-all-arancia-1.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Insalata di mare</NOME>
+            <PREZZO>10</PREZZO>
+            <INGREDIENTI>Polpo, calamari, cozze, gamberi, alloro,, succo di limone, olio, prezzemolo</INGREDIENTI>
+            <IMMAGINE>https://www.finedininglovers.it/sites/g/files/xknfdk1106/files/styles/recipes_1200_800_fallback/public/fdl_content_import_it/insalata-di-mare.jpg?itok=foc6rdvz</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Secondo</TIPO>
+            <NOME>Merluzzo in umido</NOME>
+            <PREZZO>19</PREZZO>
+            <INGREDIENTI>Merluzzo, patate lesse, polpa di pomodoro, olio, cucchiaio di patè di olive</INGREDIENTI>
+            <IMMAGINE>https://www.giorgiomare.it/site/wp-content/uploads/2018/03/merluzzoinumido.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Orecchiette con le Cime di Rapa</NOME>
+            <PREZZO>13</PREZZO>
+            <INGREDIENTI>Cime di rapa, pangrattato, aglio, acciughe, filetti, olio extravergine, semola di grano duro</INGREDIENTI>
+            <IMMAGINE>http://cdn.cook.stbm.it/thumbnails/ricette/9/9785/hd750x421.jpg</IMMAGINE>
+        </PIATTO>        
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Pasta al pomodoro</NOME>
+            <PREZZO>10</PREZZO>
+            <INGREDIENTI>Spaghetti, pomodoro, olio, basilico, aglio</INGREDIENTI>
+            <IMMAGINE>https://assets.bonappetit.com/photos/57b000ccf1c801a1038bd5fc/16:9/w_1280,c_limit/mare-pasta-al-pomodoro-h.jpg</IMMAGINE>
+        </PIATTO>   
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Ravioli con funghi e tartufo</NOME>
+            <PREZZO>13</PREZZO>
+            <INGREDIENTI>Funghi misti, ricotta, aglio, uova, prezzemolo, parmigiano grattugiato, noce moscata, tartufo nero grattugiato, burro, olio, panna fresca, funghi, scaglie di ½ tartufo nero</INGREDIENTI>
+            <IMMAGINE>https://www.ideegreen.it/wp-content/uploads/2014/02/Ravioli-ai-funghi-con-fonduta-di-tartufo-1280x720.jpg</IMMAGINE>
+        </PIATTO>      
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Spaghetti ai ricci di mare</NOME>
+            <PREZZO>20</PREZZO>
+            <INGREDIENTI>Spaghetti, ricci di mare, aglio in camicia, prezzemolo, olio extravergine , pepe, peperoncino</INGREDIENTI>
+            <IMMAGINE>https://blog.giallozafferano.it/salezucchero/wp-content/uploads/2018/06/IMG_20160831_170105-e1560328717990.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Tagliatelle al ragu</NOME>
+            <PREZZO>15</PREZZO>
+            <INGREDIENTI>Tagliatelle, polpa di manzo macinata, polpa di maiale macinata, passata di pomodoro, pomodori pelati a pezzettoni, concentrato di pomodoro, aglio, cipolla, vino rosso, olio extravergine di oliva, pepe e peperoncino.</INGREDIENTI>
+            <IMMAGINE>https://www.finedininglovers.it/sites/g/files/xknfdk1106/files/styles/recipes_1200_800_fallback/public/fdl_content_import_it/tagliatelle-ragu.jpg?itok=YFdeBIB7</IMMAGINE>
+        </PIATTO> 
+        <PIATTO>
+            <TIPO>Primo</TIPO>
+            <NOME>Vellutata di funghi</NOME>
+            <PREZZO>13</PREZZO>
+            <INGREDIENTI>Funghi freschi misti,burro,aglio, cipollina, prezzemolo tritato, brodo vegetale, uovo,  farina, vino bianco,brodo vegetale.</INGREDIENTI>
+            <IMMAGINE>https://www.chefstefanobarbato.com/ita/wp-content/uploads/2019/10/Vellutata_di_Funghi_Porcini_pres.jpg</IMMAGINE>
+        </PIATTO>
+    </ALLA_CARTA> 
+
+    <LISTA_VINI>
+        <PIATTO>
+            <TIPO>Vino</TIPO>
+            <NOME>GEWÜRZTRAMINER DOC ALTO ADIGE</NOME>
+            <PREZZO>28</PREZZO>
+            <IMMAGINE>../immagini/vini/gewuerztraminer-alto-adige-doc-2022-colterenzio-removebg-preview.png</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Vino</TIPO>
+            <NOME>BIANCO VENETO IGT AMICONE</NOME>
+            <PREZZO>22</PREZZO>
+            <IMMAGINE>https://lacantinadelbarbera.it/shop/27-large_default/amicone-bianco-veneto-igt-cantine-di-ora.jpg</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Vino</TIPO>
+            <NOME>SOAVE DOC COLLI SCALIGERI CASTELCERINO</NOME>
+            <PREZZO>25</PREZZO>
+            <IMMAGINE>../immagini/vini/castenocerino.png</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Vino</TIPO>
+            <NOME>CESANESE DEL PIGLIO SUPERIORE DOCG AGAPE</NOME>
+            <PREZZO>20</PREZZO>
+            <IMMAGINE>../immagini/vini/2013-agape-cesanese-piglio.png</IMMAGINE>
+        </PIATTO>
+        <PIATTO>
+            <TIPO>Vino</TIPO>
+            <NOME>ETNA ROSSO DOC</NOME>
+            <PREZZO>32</PREZZO>
+            <IMMAGINE>../immagini/vini/etnarosso-tornatore.png</IMMAGINE>
+        </PIATTO>
+    </LISTA_VINI>
+</MENU>
+
+
+<!-- cess to XMLHttpRequest at 'file:///C:/Users/PC/Desktop/xml/menu.xml' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: http, data, isolated-app, chrome-extension, chrome, https, chrome-untrusted. -->

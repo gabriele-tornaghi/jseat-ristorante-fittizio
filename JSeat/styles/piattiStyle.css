@@ -1,0 +1,15 @@
+.fa-plus, .fa-trash
+{
+    color:grey;
+    cursor: pointer;
+}
+
+/* immagine per l'animazione */
+.fa-1
+{
+    opacity: 0; 
+    position: relative;
+    text-align: center;
+}
+
+

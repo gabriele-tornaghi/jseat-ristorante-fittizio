@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/Generale.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <link rel="icon" type="image/x-icon" href="../immagini/favicon.png">
+    <link rel="stylesheet" href="../styles/Informazioni.css">
+    <title>JSeat informazioni</title>
+</head>
+<body>
+    <div id="navbar"></div>
+    <nav class="sidebar"></nav>
+    <div id="chi">
+        <h2>Chi siamo?</h2>
+    </div>
+    <div id="storia">
+        <h4>Il termine francese restaurant (da restaurer, "ristorare") comparve per la prima volta nel XVI secolo, con il significato di "un cibo che ristora", e si riferiva specialmente ad una minestra ricca e di gusto raffinato.
+
+            Secondo il Guinness dei primati, il Sobrino de Botin, a Madrid, sarebbe il più antico ristorante tuttora in esercizio. Fu infatti aperto nel 1725.
+            
+            Il significato moderno del termine nacque attorno al 1765, quando un cuoco parigino di nome Boulanger aprì un'attività di ristorazione. Il primo ristorante ad adottare la forma divenuta poi standard al giorno d'oggi (con i clienti seduti al proprio tavolo con la propria porzione, avendo inoltre la possibilità di scegliere la portata da un menu, durante specifici orari di apertura) fu la Grand Taverne de Londres, fondata nel 1782 da un uomo di nome Antoine Beauvillier. Sembra che il nome sia derivato dal motto "venite e io vi ristorerò" affisso nel primo locale di questo tipo.</h4>
+    </div>
+    <div id="quando">
+        <h2>Quando?</h2>
+    </div>
+    <div id="orari">
+        <h4>Siamo aperti tutti i giorni ad eccezione del LUNEDÌ</h4>
+        <h4>Giorni lavorativi: dalle 11:00 alle 15:00 e dalle 19:00 alle 23:00</h4>
+        <h4>Giorni festivi: dalle 11:00 alle 15:00 e dalle 18:00 a mezzanotte</h4>
+        
+    </div>
+    <div id="dove">
+        <h2>Dove?</h2>
+        <div id="luogo">
+            <h4>Ci troviamo al centro storico di Modena!</h4>
+            <h4>in via Stella numero 20</h4>
+        </div>
+        <div id="map"></div>
+    </div>
+    
+    <div id="contatti">
+        <h2>Ecco come contattarci</h2>
+    </div>
+    <div id="contatti_2">
+        <span class='fa fa-phone'></span> <h4><i>Tel.</i></h4><br>
+        <h4>+39 388 793 3191</h4><br>
+        <span class='fa fa-envelope'></span> <h4><i>email</i></h4><br>
+        <h4>jseat.info@gmail.com</h4>
+        
+    </div>
+    <footer class='footer'></footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src="../scripts/jquery-3.6.3.min.js"></script>
+    <script src="../scripts/Generale.js"></script>
+    <script src="../scripts/Informazioni.js"></script>
+    <script src="https://kit.fontawesome.com/949641ccc9.js" crossorigin="anonymous"></script>
+    <script>
+        generaNav()
+        stampaNAcquisti();  
+    </script>
+</body>
+</html>

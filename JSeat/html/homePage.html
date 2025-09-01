@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+    crossorigin=""/>
+    <link rel="stylesheet" href="../styles/Generale.css">
+    <link rel="stylesheet" href="../styles/homeStyle.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="../immagini/favicon.png">
+    <title>Home</title>
+</head>
+<body id="bodySecondo">
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <nav class="sidebar"></nav>
+
+    <!-- Carosello -->
+    <div style="background-image: url(../imgCaroselloHomePage/interno5.jpg);" id="contenitoreCarosello">
+        <img src="../immagini/logo.PNG" alt="logo" id="logoCarosello"> 
+        <div style="background-image: url(../imgCaroselloHomePage/interno5.jpg);"class="slide active"><img src="" alt="" class="imgSider"></div>
+        <div style="background-image: url(../imgCaroselloHomePage/entrata.jpg);"class="slide"></div>
+        <div style="background-image: url(../imgCaroselloHomePage/piatto1.jpg);"class="slide"></div>
+        <div style="background-image: url(../imgCaroselloHomePage/cartaParati.jpg);"class="slide"></div>
+        <div style="background-image: url(../imgCaroselloHomePage/lampafa.jpg);"class="slide"></div>
+
+        <div class="navigation">
+            <div class="btn active"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+            <div class="btn"></div>
+        </div>
+    </div>
+    <br>
+    <img src="../immagini/logo.PNG" alt="logo" id="logoSottoCarosello"> 
+    <br>
+    <a href="#" id="menu_giorno"><img src="../immagini/menùGiorno.jpg" alt="menù del giorno"></a>
+
+    <!-- Recensioni -->
+    <div class="recensioni">
+        <div>
+            <h2>Nicola</h2>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <p>Excepcional, Estupendo, Riquísimo,Tres Estrellas Michelin ultra-merecidas.
+                Sinfonia di sapori elaborati e contrasti strutturali, abbinamenti deliziosi concentrati in
+                capolavori di arte culinaria.
+            </p>
+        </div>
+        <div>
+            <h2>Stefano</h2>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <p>Cenare da JSeat è un po’ come andare a teatro per assistere ad un’opera di Wagner: 
+                o ci si va preparati o si rischia di non capire nulla. 
+                Non è un’esperienza per palati semplici , non è una semplice cena. 
+                È un incontro con la complessa gastronomia di un uomo che se non avesse scelto di diventare uno chef 
+                probabilmente sarebbe stato un grande filosofo.
+            </p>
+        </div>
+        <div>
+            <h2>Giovanni</h2>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+            <p>Un'azienda familiare di successo, di piccole dimensioni, in cui l'amore per i prodotti 
+                e il territorio locali incontra il desiderio di condividere le tradizioni e le storie della famiglia proprietaria. 
+                Cibo gustoso fatto in casa, degustazione di sidro molto bello e benvenuto ai vegetariani.</p>
+        </div>
+    </div>
+    <br>
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer class="footer"></footer>
+    
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+    crossorigin=""></script>
+    <script src="../scripts/jquery-3.6.3.min.js"></script>
+    <script src="../scripts/homeScript.js"> </script>
+    <script src="../scripts/Generale.js"></script>
+    <!-- Aggiunge simboli usati nella barra laterale e nel footer -->
+    <script src="https://kit.fontawesome.com/949641ccc9.js" crossorigin="anonymous"></script>
+    <script>
+        generaNav()
+        manualNav(0);
+        stampaNAcquisti()
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+/* Navbar */
+#menuSpeciali_navbar{
+    border-top: 4px solid #9d0646;
+    color: #9d0646;
+}
+#home_navbar, #informazioni_navbar{
+    color: #f9e5d5;
+    border-top: 4px solid transparent;
+}
+
+.corpo{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+}
+.menù img{
+    margin: 20px;
+    width: 300px;
+    height: 250px;
+}
+h2{
+    clear: both;
+    color: #9d0646;
+}
+.menù{
+    border-radius: 10px;
+    color: #f9e5d5;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    background-color: #45051b;
+}
+.menù p{
+    border-radius: 10px;
+    padding: 20px;
+    border: 10px solid #45051b;
+}
+.prezzo{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#serateTema{
+    border-radius: 7px;
+    margin: auto;
+    width: 70%;
+    display: flex;
+    color: #f9e5d5;
+    background-color: #45051b;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#serateTema h2{
+    color: #9d0646;
+}
+#serateTema div{
+    width: 47%;
+    margin: 10px;
+}
+
+/* ************************************************************************ */
+@media(max-width: 800px){
+    .menù{
+        width: 90%;
+    }
+    #serateTema{
+        flex-direction: column;
+        width: 90%;
+    }
+}

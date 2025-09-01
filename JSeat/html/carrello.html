@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSeat carrello</title>
+    <link rel="stylesheet" href="../styles/Generale.css">
+    <link rel="stylesheet" href="../styles/carrelloStyle.css">
+   
+    <link rel="stylesheet" href="../styles/PiattiECarrello.css">
+    <link rel="icon" type="image/x-icon" href="../immagini/favicon.png">
+</head>
+<body>
+    <div id="navbar"></div>
+    <nav class="sidebar"></nav>
+    <div id="conteniListaCarrello"></div>
+    
+    <h1 id="prezzo">Prezzo totale: <span id="contieniPrezzoTotale"></span></h1>
+    <br><br>
+    <section id="prenotazioneSection">
+        <fieldset>
+            <legend>
+                <h2>Completa i campi per l'ordinazione</h2>
+            </legend>
+            <input id="inputNomePrenotazione" type="text"><br>
+            <input onchange="checkData()" id="inputDataPrenotazione" type="date"><br>
+            <select id="mySelect">
+                <option value="turno1pranzo">11.00</option>
+                <option value="turno2pranzo">13.00</option>
+                <option value="turno1cena">19.00</option>
+                <option value="turno2cena">21.00</option>
+            </select>
+            <br>
+            <button id="ordinaBtn" onclick="popUpConfermaOrdine()">Ordina</button>
+        <div id="popUpConfermaOrdine"></div>
+        </fieldset>
+    
+
+        
+    </section>
+    <footer class='footer'></footer>
+
+
+    <script src="../scripts/jquery-3.6.3.min.js"></script>
+    <script src="../scripts/Generale.js"></script>
+    <script src="https://kit.fontawesome.com/949641ccc9.js" crossorigin="anonymous"></script>
+    <script>
+        generaNav()
+    </script>
+
+    <script src="../scripts/carrelloScript.js"></script>
+
+</body>
+</html> 

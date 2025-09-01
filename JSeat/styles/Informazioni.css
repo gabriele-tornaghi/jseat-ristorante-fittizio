@@ -1,0 +1,68 @@
+/* Navbar */
+#informazioni_navbar{
+    border-top: 4px solid #9d0646;
+    color: #9d0646;
+}
+#menuSpeciali_navbar, #home_navbar{
+    color: #f9e5d5;
+    border-top: 4px solid transparent;
+}
+
+h4{
+    display:inline;
+}
+#chi{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: #9d0646;
+    margin-top: 50px;
+}
+#storia{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 50px;
+    margin-top: 10px;
+    
+}
+#quando{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: #9d0646;
+    margin-top: 50px;
+}
+#orari{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 50px;
+    margin-top: 10px;
+    
+}
+#dove{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: #9d0646;
+    margin-top: 50px;
+}
+#luogo{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 50px;
+    margin-top: 10px;
+    
+}
+#map{
+    margin: auto;
+    height: 350px;
+    width: 80%;
+    border: 2px solid #9d0646;
+    border-radius: 10px;
+}
+#contatti{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: #9d0646;
+    margin-top: 50px;
+}
+#contatti_2{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 50px;
+    margin-top: 10px;
+    
+}

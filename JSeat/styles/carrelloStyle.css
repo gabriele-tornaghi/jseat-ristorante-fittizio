@@ -1,0 +1,103 @@
+/* Navbar */
+.carrello{
+    color: #9d0646;
+}
+
+/* ************************************************************** */
+/* COLORE ICONE */
+.fa-square-plus, .fa-trash, .fa-square-minus, .fa-square-plus
+{
+    color:grey;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    margin: auto;
+}
+h2{
+    margin: 20px;
+    color: #9d0646;
+}
+/* ************************************************************** */
+
+/* TABELLA */
+
+/* LISTA CARRELLO --> GRAN PARTE E' NEL CSS CONDIVISO TRA IL CARRELLO E I PIATTI "PiattiECarrello.css*/
+#conteniListaCarrello
+{
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#tabellaCarrello h2{
+    color: #9d0646;
+}
+
+#prenotazioneSection{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+   
+}
+
+/* ***************************************************************** */
+#prezzo{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+}
+
+/* ***************************************************************** */
+
+/* PRENOTAZIONE */
+#popUpConfermaOrdine
+{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+#inputNomePrenotazione, #inputDataPrenotazione, #inputOraPrenotazione, #mySelect{
+    height: 30px;
+    border: 1px solid #9d0646;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+.conferma{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #f9e5d5;
+    border: 1px solid #9d0646;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+#ordinaBtn{
+    margin: auto;
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 3px 10px;
+    color: #9d0646;
+    background-color: #f9e5d5;
+    border-color: #9d0646;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+fieldset
+{
+    width: 80%;
+    margin: auto;
+    border: #9d0646 solid 2px;
+    
+}
+
+/* ***************************************************************** */
+
+@media only screen and (max-width: 1060px) {
+    fieldset{
+        margin: auto;
+        width: 95%;
+    }   
+}
+
+  

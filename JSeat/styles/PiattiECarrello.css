@@ -1,0 +1,135 @@
+/* ****************************************************** */
+/* Spinner che gira nìin attesa della risposta del server */
+#loader
+{
+    display: none;
+    position: relative;
+    top:20px;
+    width: 100px;
+}
+/* ****************************************************** */
+/* TABELLA */
+.imgPiatti
+{
+    width: 85%;
+    border-radius: 20px;
+}
+#tabellaLista, #tabellaCarrello{
+    margin: auto;
+   
+    margin-top: 50px;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+    width: 80%;
+    border-radius: 20px;
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+}
+
+#tabellaLista, .trCarrelloEPiatti
+{
+   
+    font-size: 16px;
+    color: #f9e5d5;
+}
+
+.tdCarrelloEPiatti{
+    background-color:  #45051b;
+    text-align: center;
+    padding:5px;
+    width: 33%;
+}
+
+.trCarrelloEPiatti td:last-child
+{
+    border-top-right-radius:20px ;
+    border-bottom-right-radius:20px ;
+}
+
+.trCarrelloEPiatti td:first-child
+{
+    border-top-left-radius:20px ;
+    border-bottom-left-radius:20px ;
+}
+.separatoreListaPiatti
+{
+    width: 7%;
+}
+.cellaImg img
+{
+    position: relative;
+    top:5px;
+}
+
+#tabellaLista h2{
+    color: #9d0646;
+}
+
+.fa-solid{
+    color: #f9e5d5;
+}
+.fa-1
+{
+    color: grey;
+    position: relative;
+}
+h2, h1{
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    color: #9d0646;
+}
+.divMobile
+{
+    display: none;
+}
+
+
+/* ****************************************************** */
+
+@media only screen and (max-width: 1060px) {
+    #tabellaLista, #tabellaCarrello{
+        width: 95%;
+    }   
+    
+    h2
+    {
+        margin:0;
+    }
+}
+@media only screen and (max-width: 850px) {
+    .tdCarrelloEPiatti
+    {
+        display: none;
+    }
+
+    .contenitoreContatoreProdotto
+    {
+        padding-top: 20px;
+        display: flex;
+        width: 15%;
+        margin: auto;
+        justify-content: space-between;
+    }
+    .fa-xl
+    {
+        line-height: normal!important;
+    }
+    .imgPiatti
+    {
+        width: 60%;
+    }
+    .divMobile
+    {
+        display: block;
+    }
+    .tdAumentDiminuisci, .cellaAggiungiListaPiatti
+    {
+        border-radius: 20px;
+        display: block; 
+        width: 100%;
+    }
+    .cellaAggiungiListaPiatti
+    {
+        display: block; 
+        width: 100%;
+    }
+  }
+

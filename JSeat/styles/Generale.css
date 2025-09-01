@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+*{
+    box-sizing: border-box;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    text-align: center;
+    background-color: #f9e5d5;
+    background-attachment: scroll;
+    background-size:100%;
+}
+
+/* ***************************************************************************  */
+/* Navbar */
+#navbar
+{
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 0;
+    height: 60px;
+    display: flex;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #390517;
+    z-index: 10000;
+}
+#container_celle_navbar{
+    margin:0;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    justify-content: space-between;
+}
+.cella_navbar{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 12px;
+}
+#home_navbar, #menuSpeciali_navbar, #informazioni_navbar{
+    border-top: 4px solid transparent;
+    color: #f9e5d5;
+}
+.cella_navbar:hover:not(.active) {
+    border-top: 4px solid #9d0646;
+    color: #9d0646;
+}
+.carrello{
+    color: #f9e5d5;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 28px;
+}
+.bottone_menù{ /* Bottone che apre menù sulla navbar */
+    text-align: center;
+    cursor: pointer;
+    transition: left 0.4s ease;
+}
+.bottone_menù span{ /*Simbolo del menù*/
+    font-size: 28px;
+    line-height: 45px;
+    color:#f9e5d5;
+}
+.bottone_menù.click span:before{ /*Simbolo del menù cambia diventando una x*/
+    content: '\f00d';
+}
+
+/* Barra laterale */
+.sidebar{
+    font-family: Kanit, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -260px;
+    background: #45051b;
+    transition: left 0.5s ease;
+    z-index: 10000;
+}
+.sidebar.mostra{ /*La barra viene mostrata dopo aver premuto simbolo menù*/
+    left: 0px;
+}
+.sidebar a{
+    color: #f9e5d5;
+    text-decoration: none;
+}
+#navNascosta{
+    display: none;
+    height: 0;
+}
+.sidebar #menù{
+    color: #9d0646;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background-color: #f9e5d5;
+    letter-spacing: 1px;
+}
+/* Propietà assegnate alle liste che compongono la barra laterale */
+nav ul{
+    text-align: left;
+    margin: 0px;
+    background-color: #9d0646;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid #45051b;
+}
+nav ul li a{
+    position: relative;
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+}
+nav ul li a:hover{
+    color: #9d0646;
+    background-color: #f9e5d5;
+    border-left-color: #9d0646;
+}
+/* Due classi che si attivano all'apertura della barra laterale */
+.mostra{
+    display: block;
+}
+#continitoreCarrello
+{
+    display: flex;
+}
+#contieniNprodotti
+{
+    margin-left: 5px;
+    font-family: Alkatra, Arial, Helvetica, sans-serif;
+    align-self: center;
+    color:#f9e5d5;
+    width: 25px;
+}
+/* ***************************************************************************  */
+
+/* footer */
+footer{
+    width: 100%;
+    margin-top: 100px;
+    text-align: left;
+    background-color: #390517;
+    text-align: center;
+    font-size: 14px;
+    padding: 30px;
+}
+.footer_left, .footer_center, .footer_right{
+    display: inline-block;
+    vertical-align: top; /*Allinea verticalmente*/
+}
+.footer_left{
+    width: 30%;
+}
+footer h3{
+    color: #d77e3c;
+    font-size: 25px;
+    margin: 0;
+}
+.footer_links{
+    color: #9d0646;
+    margin: 20px 0 12px 0;
+}
+.footer_links a{
+    font-size: 13px;
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit; /*Prende colore della classe footer_links*/
+}
+.footer_links a:hover{
+    color: #f9e5d5;
+}
+.footer_copyright{
+    color: #8f9296;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer_center{
+    width: 35%;
+}
+.footer_center span{
+    color: #f9e5d5;
+    font-size: 12px;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    line-height: 42px;
+    margin: 0;
+    vertical-align: middle;
+}
+.footer_center p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #f9e5d5;
+    vertical-align: middle;
+}
+.footer_center p a{
+    color: #d77e3c;
+    text-decoration: none;
+}
+.footer_right{
+    width: 30%;
+}
+.footer_right .about{
+    line-height: 20px;
+    color: #92999f;
+    font-size: 12px;
+    margin: 0;
+    font-weight: normal;
+}
+.footer_right .about span{
+    display: block;
+    color: #f9e5d5;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.footer_icons{
+    margin-top: 20px;
+}
+.footer_icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #9d0646;
+    border-radius: 2px;
+    font-size: 18px;
+    color: #f9e5d5;
+    text-align: center;
+    line-height: 35px;
+    margin: 0 3px 5px 0;
+}
+.footer_icons a:hover{
+    background-color: #f9e5d5;
+    color: black;
+}
+/* ***************************************************************************  */
+
+
+@media(max-width: 800px){
+    #navbar{
+        height: 40px;
+    }
+    .bottone_menù span{
+        font-size: 22px;
+    }
+    #carrello{
+        width: 35px;
+    }
+    #contieniNprodotti{
+        font-size: 18px;
+    }
+    .sidebar{
+        left: -700px;
+        width: 80%;
+    }
+    #container_celle_navbar{
+        display: none;
+    }
+    #navNascosta{
+        display: block;
+        height: fit-content;
+    }
+    .footer_links, .footer_center, .footer_right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer_center span{
+        margin-left: 0;
+    }
+    .recensioni{
+        flex-direction: column;
+    }
+}
